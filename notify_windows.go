@@ -5,7 +5,7 @@ import (
 	"os/exec"
 )
 
-var command = exec.Command()
+var command = exec.Command
 
 func (n *Notify) Send() error {
 	notifyCmdName := "powershell.exe"
